@@ -16,7 +16,7 @@ char letra = 'a',c;
 char * ptr;
 ptr= &letra;
 c= *ptr;
-printf("%p %c",ptr,c);
+printf("%p %c\n",ptr,c);
 
 float decimal = 3.14, dec;
 float *ptrf;
