@@ -18,6 +18,12 @@ ptr= &letra;
 c= *ptr;
 printf("%p %c",ptr,c);
 
+float decimal = 3.14, dec;
+float *ptrf;
+ptrf= &decimal;
+dec = *ptrf;
+printf("%p %f", ptr, dec);
+
 return 0; 
 
 }
